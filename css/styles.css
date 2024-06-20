@@ -24,11 +24,6 @@ body {
     margin-left: 0.625rem;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-}
-
 nav ul li {
     list-style: none;
     display: inline;
@@ -41,7 +36,9 @@ nav ul li a {
     color: #333;
     text-decoration: none;
 }
+
 nav ul li a:hover {
     background-color: #e50c39;
     color: #fff;
-  }
+}
+
