@@ -147,6 +147,26 @@ footer {
     color: var(--color-nav);
 }
 
+#cart {
+    display: flex;
+    justify-content: end;
+}
+
+.badge::after {
+    content: attr(value);
+    font-family: "Oswald", sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+    background: red;
+    border-radius: 50%;
+    padding: 6px 8px;
+    position: relative;
+    left: -8px;
+    top: -10px;
+    opacity: 0.9;
+}
+
 @media (max-width: 960px) {
     #header-container {
         flex-direction: column;
