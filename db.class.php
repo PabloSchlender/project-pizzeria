@@ -17,8 +17,8 @@
      public $connection;
  
      /**
-      * Constructor para obtener una conexion.
-      * @return connection
+      *    Constructor para obtener una conexion.
+      *    @return connection
       */
  
      public function __construct()
@@ -35,11 +35,11 @@
  
  
      /**
-      * Ejecuta una SQL Query
+      *  Ejecuta una SQL Query
       * 
-      * @param String $query
-      * @param String $args
-      * @return object
+      *  @param String $query
+      *  @param String $args
+      *  @return object
       */
  
       public function run($query, $args = NULL)
@@ -51,9 +51,9 @@
       
  
      /**
-      * Cierra una conexion
+      *  Cierra una conexion
       *
-      * @return void
+      *  @return void
       */
      public function close()
      {
