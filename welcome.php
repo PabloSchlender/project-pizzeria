@@ -21,6 +21,13 @@
             <a href="logout.php">logout</a>
         </div>
     </nav>
+    <nav>
+                <ul>
+                    <li><a href="insert_products.php">INSERTAR PRODUCTOS</a></li>
+
+                </ul>
+
+            </nav>
     <div class="content">
         <?php
         session_start();
@@ -29,6 +36,7 @@
             echo "<br>";
             echo "Horario de conexiòn " . $_SESSION['time'];
         }
+        
         echo "<table id=example class='table  table-bordered table-striped'>
             <thead class='thead-dark'>
                 <tr>
@@ -78,6 +86,7 @@
         ?>
         </tbody>
         </table>
+    </div>
     </div>
     <script>
 var table = new DataTable('#example', {
