@@ -18,12 +18,12 @@
     <nav class="natop">
         <div>
             <h1>Panel de Administrador</h1>
-            <a href="logout.php">logout</a>
+            <a href="logout.php" class="btn btn-warning">logout</a>
         </div>
     </nav>
     <nav>
                 <ul>
-                    <li><a href="insert_products.php">INSERTAR PRODUCTOS</a></li>
+                    <li><a href="insert_products.php"">INSERTAR PRODUCTOS</a></li>
 
                 </ul>
 

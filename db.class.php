@@ -49,6 +49,10 @@
         return $stmt;
       } 
       
+      public function prepare($query)
+{
+        return $this->connection->prepare($query);
+}
  
      /**
       *  Cierra una conexion

@@ -14,6 +14,9 @@
             <div class="col-md-12">
                 <h3 class="text-center">INGRESO DE PRODUCTOS</h3>
             </div>
+            <div class="col-md-12 text-center">
+				<a href="welcome.php" class="btn btn-primary">REGRESAR A BIENVENIDA</a>
+</div>
             <form method="post" accept-charset="utf-8" action="save_products.php" class="form-group" enctype="multipart/form-data">
                 <div class="form-group">
                     <br>
